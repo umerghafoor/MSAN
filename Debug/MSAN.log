@@ -1,0 +1,3 @@
+﻿  Assembling lab-13-2.asm...
+lab-13-2.asm(4): warning A4011: multiple .MODEL directives found : .MODEL ignored
+  MSAN.vcxproj -> D:\Users\Hp\Code\MSAN\Debug\MSAN.exe
