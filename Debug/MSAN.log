@@ -1,3 +1,8 @@
-﻿  Assembling lab-13-2.asm...
-lab-13-2.asm(4): warning A4011: multiple .MODEL directives found : .MODEL ignored
-  MSAN.vcxproj -> D:\Users\Hp\Code\MSAN\Debug\MSAN.exe
+﻿  Assembling lab-13.asm...
+lab-13.asm(1): error A2044: invalid character in file
+lab-13.asm(37): error A2008: syntax error : exit
+lab-13.asm(19): error A2006: undefined symbol : WriteString
+lab-13.asm(21): error A2006: undefined symbol : ReadInt
+lab-13.asm(34): error A2006: undefined symbol : crlf
+lab-13.asm(35): error A2006: undefined symbol : WriteInt
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\lab-13.obj" /I "D:\Users\Hp\Code\MSAN\Dependencies\irvine" /W3 /errorReport:prompt  /Ta"lab-13.asm"" exited with code 1.

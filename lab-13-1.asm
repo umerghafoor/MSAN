@@ -38,12 +38,15 @@ main PROC
     mov edx,OFFSET str3
     call WriteString
     mov ecx, stringLength
+    mov eax,0
     L2:
         pop edx
+        add eax,edx
         mov eax, edx
         call writechar
         loop L2
-
+    call writeInt
+        
     exit
 main ENDP
 END main
